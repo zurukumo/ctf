@@ -1,0 +1,9 @@
+services:
+  kali:
+    build: .
+    volumes:
+      - ./workspace:/home/kali/workspace
+    tty: true
+    stdin_open: true
+
+
